@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
 
+import { ProductListComponent } from './products/product-list.component';
+
 @Component({
+  imports: [
+    ProductListComponent
+  ],
   selector: 'pm-root',
   standalone: true,
   template: `
   <div><h1>{{pageTitle}}</h1>
-    <div>My First Component</div>
+    <pm-products></pm-products>
   </div>
   `
 })

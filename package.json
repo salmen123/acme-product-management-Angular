@@ -8,7 +8,10 @@
     "url": "https://github.com/salmen123/acme-product-management-Angular"
   },
   "keywords": [
-    "Angular"
+    "Angular",
+    "Templates",
+    "Directives",
+    "Interpolation"
   ],
   "private": true,
   "scripts": {
@@ -27,6 +30,8 @@
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
+    "bootstrap": "^5.3.3",
+    "font-awesome": "^4.7.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"

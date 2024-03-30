@@ -30,6 +30,8 @@
 | @angular/platform-browser         | Usage information and reference details can be found in [Angular documentation](https://angular.io/docs)                          |
 | @angular/platform-browser-dynamic | Usage information and reference details can be found in [Angular documentation](https://angular.io/docs)                          |
 | @angular/router                   | Usage information and reference details can be found in [Angular documentation](https://angular.io/docs)                          |
+| bootstrap                         | Sleek, intuitive, and powerful front-end framework for faster and easier web development                                          |
+| font-awesome                      | The iconic font and CSS framework                                                                                                 |
 | rxjs                              | Reactive Extensions Library for JavaScript                                                                                        |
 | tslib                             | This is a runtime library for [TypeScript](https://www.typescriptlang.org/)  that contains all of the TypeScript helper functions |
 | zone.js                           | Implements Zones for JavaScript, inspired by [Dart](https://dart.dev/articles/archive/zones)                                      |
