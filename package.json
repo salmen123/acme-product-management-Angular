@@ -11,7 +11,9 @@
     "Angular",
     "Templates",
     "Directives",
-    "Interpolation"
+    "Interpolation",
+    "Data Binding",
+    "Pipes"
   ],
   "private": true,
   "scripts": {
