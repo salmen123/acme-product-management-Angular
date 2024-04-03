@@ -13,7 +13,11 @@
     "Directives",
     "Interpolation",
     "Data Binding",
-    "Pipes"
+    "Pipes",
+    "Custom Pipes",
+    "Interfaces",
+    "Component Styles",
+    "Lifecycle Hooks"
   ],
   "private": true,
   "scripts": {
