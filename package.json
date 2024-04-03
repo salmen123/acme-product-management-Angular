@@ -22,7 +22,14 @@
     "Passing Data to a Nested Component (@Input)",
     "Emitting an Event (@Output)",
     "Registering a Service",
-    "Injecting the Service"
+    "Injecting the Service",
+    "Reactive Extensions",
+    "Observable",
+    "Observable Pipe",
+    "HTTP Request",
+    "Exception Handling",
+    "Subscribing to an Observable",
+    "Unsubscribing from an Observable"
   ],
   "private": true,
   "scripts": {
