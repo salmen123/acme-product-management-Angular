@@ -20,7 +20,9 @@
     "Lifecycle Hooks",
     "Nested Component",
     "Passing Data to a Nested Component (@Input)",
-    "Emitting an Event (@Output)"
+    "Emitting an Event (@Output)",
+    "Registering a Service",
+    "Injecting the Service"
   ],
   "private": true,
   "scripts": {
