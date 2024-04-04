@@ -29,7 +29,11 @@
     "HTTP Request",
     "Exception Handling",
     "Subscribing to an Observable",
-    "Unsubscribing from an Observable"
+    "Unsubscribing from an Observable",
+    "Navigation",
+    "Routing",
+    "routerLink",
+    "router-outlet"
   ],
   "private": true,
   "scripts": {

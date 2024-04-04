@@ -2,8 +2,15 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import 'font-awesome/css/font-awesome.min.css';
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 div.card {
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 div.card-header {
@@ -11,5 +18,5 @@ div.card-header {
 }
 
 .table {
-  margin-top: 10px
+  margin-top: 10px;
 }

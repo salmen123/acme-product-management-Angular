@@ -9,8 +9,7 @@ import { ProductService } from './product.service';
 import { StarComponent } from '../shared/star.component';
 
 @Component({
-  imports: [ ConvertToSpacesPipe, CurrencyPipe, LowerCasePipe, FormsModule, NgFor, NgIf, StarComponent ],
-  selector: 'pm-products',
+  imports: [ ConvertToSpacesPipe, CurrencyPipe, FormsModule, LowerCasePipe, NgFor, NgIf, StarComponent ],
   standalone: true,
   styleUrls: ['./product-list.component.css'],
   templateUrl: './product-list.component.html'
