@@ -33,7 +33,11 @@
     "Navigation",
     "Routing",
     "routerLink",
-    "router-outlet"
+    "router-outlet",
+    "Passing Parameters to a Route (RouterLink)",
+    "Reading Parameters from a Route (ActivatedRoute)",
+    "Activating a Route With Code (Router)",
+    "Protecting Routes With Guards"
   ],
   "private": true,
   "scripts": {
