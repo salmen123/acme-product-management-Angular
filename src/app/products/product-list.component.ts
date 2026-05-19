@@ -1,16 +1,15 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { CurrencyPipe, LowerCasePipe, NgFor, NgIf } from '@angular/common';
-import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 import { ConvertToSpacesPipe } from '../shared/convert-to-spaces.pipe';
 import { IProduct } from './product';
 import { ProductService } from './product.service';
-import { StarComponent } from '../shared/star.component';
+import { sharedImports } from '../shared/shared.imports';
 
 @Component({
-  imports: [ ConvertToSpacesPipe, CurrencyPipe, FormsModule, LowerCasePipe, NgFor, NgIf, RouterLink, StarComponent ],
+  imports: [ ConvertToSpacesPipe, CurrencyPipe, LowerCasePipe, NgFor, NgIf, RouterLink, ...sharedImports ],
   standalone: true,
   styleUrls: ['./product-list.component.css'],
   templateUrl: './product-list.component.html'
